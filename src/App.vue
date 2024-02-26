@@ -7,8 +7,11 @@ import PieChart from './components/PieChart.vue'
 </script>
 
 <template class="mx-auto">
-  <Carousel />
   <PieChart />
+  <hr>
+  <hr>
+  <hr>
+  <Carousel />
 </template>
 
 <style scoped></style>

@@ -34,8 +34,10 @@ onMounted(() => {
 </script>
 
 <template>
+    <h2 class="text-3xl text-center font-bold my-10">Image Carousel with <a
+            href="https://flickity.metafizzy.co/">Flickity</a></h2>
     <div class="my-10 mx-auto flex justify-center ">
-        <input class="py-2 px-4 border-2" type="text" v-model="newItem">
+        <input class="py-2 px-4 border-4" type="text" v-model="newItem">
         <button @click="addNewItem()" class="ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
             Add New Item
         </button>
